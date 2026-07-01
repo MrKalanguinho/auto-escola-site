@@ -139,6 +139,8 @@ footer { background: #0a0a0a; padding: 40px 5%; border-top: 3px solid var(--cor-
     background-color: #e6c200;
     transform: scale(1.05);
 }
+
 @media (max-width: 768px) {
-    .banner-cnh-pcd { flex-direction: column; text-align: center; gap: 20px; }
+    .banner-cnh-pcd, .banner-cnh { flex-direction: column; text-align: center; gap: 20px; }
+    .btn-banner { display: block !important; width: 100% !important; max-width: 300px; margin: 20px auto 0 auto; }
 }
